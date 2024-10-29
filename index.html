@@ -1,29 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./styles.css" />
-    <link rel="stylesheet" href="./navbar.css" />
-    <link rel="stylesheet" href="./footer.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./navbar.css">
+    <link rel="stylesheet" href="./footer.css">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-    />
-    <title>Car Wash Project</title>
+    >
+    <title>Car Dealership Project</title>
   </head>
   <body>
     <header>
       <nav>
-        <a href="./index.html">Car Wash</a>
-        <ul>
+        <a href="./index.html" class="logo">Car Dealership</a>
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="menu-icon">
+          <i class="fa-solid fa-bars open-icon"></i>
+        </label>
+        <ul class="nav-menu">
+          <label for="menu-toggle" class="close-icon">
+            <i class="fa-solid fa-xmark"></i>
+          </label>
           <li><a href="#">About</a></li>
           <li><a href="#">Services</a></li>
           <li><a href="#">Register</a></li>
         </ul>
-        <button>
-          <i class="fa-solid fa-bars"></i>
-        </button>
       </nav>
     </header>
     <footer>
