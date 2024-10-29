@@ -13,45 +13,76 @@ nav {
   width: 90%;
 }
 
-nav a {
+.logo {
   color: #f9faf8;
   font-size: 24px;
   text-decoration: none;
 }
 
-nav ul {
+.nav-menu {
   align-items: center;
+  background-color: #1f2937;
   display: flex;
+  flex-direction: column;
   gap: 20px;
+  height: 100%;
   list-style: none;
+  position: fixed;
+  right: -100%;
+  top: 0;
+  transition: right 0.5s ease;
+  width: 250px;
+  z-index: 10;
 }
 
-nav ul li a {
+.close-icon {
+  align-self: flex-end;
+  color: #f9faf8;
+  cursor: pointer;
+  font-size: 24px;
+  padding-top: 35px;
+  padding-right: 20px;
+}
+
+.nav-menu li a {
   color: #e5e8eb;
   font-size: 18px;
   text-decoration: none;
 }
 
-nav button {
-  background: none;
-  border: none;
-  color: #f9faf8;
-  font-size: 24px;
-  cursor: pointer;
+.nav-menu li a:hover {
+  color: white;
 }
 
-/* Media Queries */
+#menu-toggle {
+  display: none; 
+}
 
-/* Hide the <ul> when below the width of 640px */
-@media (max-width: 639px) {
-  nav ul {
+.menu-icon {
+  align-items: center;
+  color: #f9faf8;
+  cursor: pointer;
+  display: flex;
+  font-size: 24px;
+}
+
+#menu-toggle:checked ~ .nav-menu {
+  right: 0;
+}
+
+@media (min-width: 640px) {
+  .nav-menu {
+    flex-direction: row;
+    position: static;
+    height: auto;
+    width: auto;
+  }
+
+  .menu-icon {
     display: none;
   }
-}
 
-/* Show the <ul> when reaching 640px width and above */
-@media (min-width: 640px) {
-  nav button {
+  .close-icon {
     display: none;
   }
 }
