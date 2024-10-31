@@ -8,14 +8,14 @@
   font-family: Roboto, sans-serif;
 }
 
-/* main *{
-  margin-top: 1em;
-  margin-bottom: 1em;
-} */
+main{
+  margin: 2em;
+}
 
 /* styling for the information section */
 .info h1 {
   margin: 1em;
+  padding: 3vw;
   font-size: 36px;
   font-weight: 800;
   text-align: center;
@@ -34,25 +34,26 @@
   width: 100px;
   border-radius: 10%;
   border-style: solid;
-  /* border-width: ; */
   border-color: #3882F6;
 }
 
-.car > img{
-  height: 50px;
-  width: 50px;
-  display: flex;
-  justify-content: center;
+.car img{
+  height: 90px;
+  width: 90px;
+  border-radius: 10%;
+  object-fit: contain;
 }
 
-.car img{
-  object-fit: contain;
+.car p{
+  margin: 0.5em;
+  text-align: center;
+  
 }
 
 /* styling for the quote section */
 .quote{
+  /* margin: 1em; */
   margin-top: 1em;
-  margin-bottom: 1em;
   padding: 5em;
   display: flex;
   flex-direction: column;
@@ -62,6 +63,7 @@
 }
 
 .quote p{
+  text-align: center;
   font-size: 36px;
   font-style: italic ;
   color: #1F2937;
