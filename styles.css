@@ -73,3 +73,21 @@ main{
   text-align: right;
   font-weight: 500;
 }
+
+/* styling the about page */
+.cars img{
+  width: 100%;
+}
+
+.inStock{
+  margin: 1em;
+  display: flex;
+  gap: 30px;
+}
+
+.test{
+  height: 100px;
+  width: 100px;
+  border-style: solid;
+  border-color: #3882F6;
+}
