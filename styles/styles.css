@@ -95,6 +95,7 @@
 .inStock{
   margin: 1em;
   display: flex;
+  flex-flow: wrap;
   justify-content: space-between;
   align-items: center;
   padding: 20px;
@@ -105,8 +106,6 @@
   height: 100px;
   width: 100px;
   flex: 1;
-  /* border-style: solid;
-  border-color: #3882F6; */
 }
 
 .test img{
@@ -118,4 +117,19 @@
 
 .test p{
   font-size: 1em;
+}
+
+
+@media (max-width: 496px) {
+  .inStock {
+      flex-direction: column; 
+      align-items: center;
+      gap: 15px;
+  }
+
+  .brands {
+    flex-direction: column; 
+    align-items: center;
+    gap: 30px;
+}
 }
