@@ -76,15 +76,46 @@
   width: 100%;
 }
 
+.ourCars{
+  margin-bottom: 2em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.ourCars h1{
+  text-align: center;
+}
+
+.us{
+  padding-top: 2em;
+  padding-bottom: 2em;
+  text-align: center;
+}
+
 .inStock{
   margin: 1em;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
   gap: 30px;
 }
 
 .test{
   height: 100px;
   width: 100px;
-  border-style: solid;
-  border-color: #3882F6;
+  flex: 1;
+  /* border-style: solid;
+  border-color: #3882F6; */
+}
+
+.test img{
+  max-width: 100%; 
+  max-height: 100%;
+  display: block;
+  margin: 0 auto 10px;
+}
+
+.test p{
+  font-size: 1em;
 }
