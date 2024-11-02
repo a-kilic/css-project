@@ -3,14 +3,13 @@ header {
   background-color: #1f2937;
   display: flex;
   height: 100px;
+  padding: 0 60px; /* Added padding to match hero section */
 }
 
 nav {
   display: flex;
-  justify-content: space-between;
-  margin: 0 auto;
-  max-width: 1200px;
-  width: 90%;
+  justify-content: space-between; /* Changed to space-between to distribute items */
+  width: 100%;
 }
 
 .logo {
@@ -55,7 +54,7 @@ nav {
 }
 
 #menu-toggle {
-  display: none; 
+  display: none;
 }
 
 .menu-icon {
@@ -71,17 +70,12 @@ nav {
 }
 
 @media (min-width: 1200px) {
-  nav {
-    width: 100%;
-  }
-}
-
-@media (min-width: 640px) {
   .nav-menu {
     flex-direction: row;
     position: static;
     height: auto;
     width: auto;
+    gap: 30px; /* Adjusted gap for desktop view */
   }
 
   .menu-icon {
