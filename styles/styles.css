@@ -75,7 +75,6 @@
 }
 
 .ourCars{
-  margin-bottom: 2em;
   padding-top: 2em;
   padding-bottom: 2em;
 }
@@ -94,23 +93,21 @@
   margin: 1em;
   display: flex;
   flex-flow: wrap;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: center;
   padding: 20px;
   gap: 30px;
 }
 
 .test{
-  height: 200px;
-  width: 100px;
-  flex: 1;
+  height: 300px;
+  width: 250px;
 }
 
 .test img{
   width: 100%; 
   height: auto;
-  display: block;
   margin: 0 auto 10px;
+  object-fit: contain;
 }
 
 .test p{
