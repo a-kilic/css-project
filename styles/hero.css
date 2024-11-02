@@ -1,16 +1,32 @@
 .hero{
     display: flex;
     justify-content: center;
-    gap: 20px;
-    padding: 30px;
+    gap: 30px;
+    padding: 40px;
+    background-color: #1F2937;
 }
 
 .hero-h2{
     margin-bottom: 10px;
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
 }
 
 .hero-p{
     text-align: justify;
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: 20px;
+}
+
+.hero-button{
+    background-color: #3882F6;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
 }
 
 .hero-image{
