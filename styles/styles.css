@@ -128,3 +128,41 @@
     gap: 30px;
   }
 }
+
+
+/* sign up section */
+.signup{
+  margin: 2em 4em;
+  padding: 3em; 
+  display: flex;
+  background-color: #3882F6;
+  border-radius: 5px;
+}
+
+.signup h3{
+  color: #F9FAF8;
+}
+
+.signup p{
+  font-size: small;
+  color: #F9FAF8;
+}
+
+.btn {
+  display: block;
+  width: 150px;
+  height: 50px;
+  margin: 20px auto;
+  padding: 10px;
+  background: #3882F6;
+  color: #F9FAF8;
+  text-align: center;
+  border-radius: 5px;
+  text-decoration: none;
+  border-style: solid;
+  border-color: #F9FAF8;
+}
+
+.call{
+  margin: 2em;
+}
