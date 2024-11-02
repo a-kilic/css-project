@@ -131,6 +131,11 @@
 
 
 /* sign up section */
+.btn a{
+  text-decoration: none;
+  color: #F9FAF8;
+}
+
 .signup{
   margin: 2em 4em;
   padding: 3em; 
