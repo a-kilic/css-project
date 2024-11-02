@@ -1,0 +1,21 @@
+.hero{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+}
+
+.hero-h2{
+    margin-bottom: 10px;
+}
+
+.hero-p{
+    text-align: justify;
+}
+
+.hero-image{
+    width: 50%;
+    border-radius: 5%;
+    border-style: solid;
+    border-color: #3882F6;
+}
