@@ -10,7 +10,7 @@ nav {
   justify-content: space-between;
   margin: 0 auto;
   max-width: 1200px;
-  width: 100%;
+  width: 90%;
 }
 
 .logo {
@@ -68,6 +68,12 @@ nav {
 
 #menu-toggle:checked ~ .nav-menu {
   right: 0;
+}
+
+@media (min-width: 1200px) {
+  nav {
+    width: 100%;
+  }
 }
 
 @media (min-width: 640px) {
