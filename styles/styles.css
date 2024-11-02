@@ -41,7 +41,7 @@
   object-fit: contain;
 }
 
-.car p{
+.car figcaption{
   margin: 0.5em;
   text-align: center;
   
@@ -110,7 +110,7 @@
   object-fit: contain;
 }
 
-.test p{
+.test figcaption{
   font-size: 1em;
 }
 
